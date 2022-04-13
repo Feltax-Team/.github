@@ -4,3 +4,16 @@
 
 ### <img src="https://images.emojiterra.com/twitter/v13.1/512px/1f1ec-1f1e7.png" alt="English" width="20px"> English
 `Feltax is a public project that started in mid-2020 and has been climbing more and more, currently being 2 people working on it almost daily.`
+
+### How our services work
+```mermaid
+graph LR
+
+A(DataBase) --> B
+B --> A
+C --> A
+B((API)) --> D(Web Frontend)
+B((API)) --> C(Discord BOT)
+A --> C
+D --> B
+```
